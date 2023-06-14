@@ -2,8 +2,6 @@
 
 <div align="center">
 <h1> <b> Rails - Blog-App</b> <hr/>
-   <img src="ruby.png" alt="Ruby Language Icon" height="400px" />
-    <br/>
 
 </div>
 
