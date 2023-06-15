@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'rails_helper'
 describe Post do
   before(:all) do
     @user = User.create(name: 'name', posts_counter: 0)
