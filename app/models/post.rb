@@ -8,7 +8,7 @@ class Post < ApplicationRecord
   validates :likes_counter, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 
   def update_posts_counter
-    author_posts = author.posts_counter || 0
+    author_posts = author.posts_counter == nil ? 0 : author.posts_counter
     author.update(posts_counter: author_posts + 1)
   end
 
