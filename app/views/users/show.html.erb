@@ -1,1 +1,12 @@
-<h1> These are details of the user</h1>    
+<%= render 'partials/user', user: @user%>
+<div class='user-bio'> Bio<br><%= @user.bio %></div>
+<ul class='user-card-post-ul'>
+<% if @user.recent_posts.empty? %>
+  <p class='post-card-no-click'>No posts</p>
+<% else %>
+<%@user.recent_posts.each do |post|%>
+<li>
+  <%=render 'partials/post', post: post%>
+</li>
+<%end%>
+<%end%>
