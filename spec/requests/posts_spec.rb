@@ -16,6 +16,7 @@ describe "GET /users/:id/posts" do
   end
   it 'the response body includes correct placeholder text.' do
     get user_posts_path(@user)
-    expect(response.body).to include("Here is a list of posts")
+    expect(response.body).to include("Here is a list of posts by a given user")
   end
+end
 end
