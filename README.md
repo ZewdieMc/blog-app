@@ -61,6 +61,15 @@
 
 ## Key Features <a name="key-features"></a>
 - Create Schema and data models
+- Create models and migrations
+- Create controllers and routes
+- Create views
+- Create associations between models
+- Create validations for models
+- Create authentication system
+- Create authorization system
+- Create tests for models and controllers
+- Deploy to Heroku
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,8 +83,7 @@
 
 In order to run this project you need:
 
-- A Computer (MAC or PC)
-- Code editor (VSCode,Atom etc...)
+- Code editor (VSCode,Atom, vim etc...)
 - A browser (Chrome,Mozilla,Safari etc...)
 - Version Control System (Git and Github)
 - Ruby installed: To run a Ruby project, users must have Ruby installed on their system. You can include the minimum required version of Ruby needed to run the project.
@@ -87,7 +95,6 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
   git clone git@github.com:ZewdieMc/blog-app.git
 ```
 
@@ -115,11 +122,16 @@ rails server
 rails db:migrate
 ```
 
-### - where filename.rb is the name of the Ruby file you want to run.
+## Running tests.
+
+```sh
+rspec ./spec/model --format documentation
+rspec ./spec/requests --format documentation
+```
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Zewdie Habtie**
 
@@ -136,7 +148,6 @@ rails db:migrate
 
 - [ ] **User authentication** :- Implementing a user login system to secure data and allow multiple users to manage their collections separately.
 - [ ] **Online database** : Creating an option for users to store their data in an online database, enabling access from any device with an internet connection.
-- [ ] **Barcode scanning** :- Adding the capability to scan barcodes on items to automatically populate item details in the collection.
 - [ ] **Integration with external platforms** :- Allowing users to import and export data from external platforms such as Deezer, Spotify or other music streaming platforms.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
