@@ -1,1 +1,14 @@
-<h1> Here is a list of posts by a given user</h1>
+<%= render 'partials/user', user: @user%>
+<ul>
+  <% if @user.posts.empty?%>
+    <p>No posts</p>
+  <%else%>
+  <%@user.posts.each do |post|%>
+    <li>
+      <%=render 'partials/post', post: post%>
+      <%= render 'partials/comment', comments: post.recent_comments%>
+    </li>
+  <%end%>
+  <%end%>
+</ul>
+<div class='see-all-post-btn-container'><a class='see-all-post-btn'>Pagination</a></div>
