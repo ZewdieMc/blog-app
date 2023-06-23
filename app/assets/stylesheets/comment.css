@@ -2,6 +2,7 @@
   width: 100%;
   border: 1px solid black;
   padding: 2%;
+  margin-bottom: 1rem;
 }
 
 .comment-form {
@@ -18,10 +19,12 @@
 }
 
 .comment-li {
-  border-bottom: 1px solid black;
+  border: 1px solid rgb(206, 199, 199);
+  border-radius: 6px;
   display: flex;
   align-items: center;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .comment-li .button_to {
