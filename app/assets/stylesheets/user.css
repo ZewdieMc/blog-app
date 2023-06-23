@@ -9,6 +9,7 @@
   width: 150px;
   height: 150px;
   border: 1px solid black;
+  border-radius: 1rem;
 }
 
 .user-card-body {
@@ -17,10 +18,12 @@
   flex-direction: column;
   padding: 2%;
   border: 1px solid black;
+  border-radius: 4px;
+  justify-content: space-around
 }
 
 .user-card-body:hover {
-  background-color: lightgreen;
+  background-color: rgb(190, 217, 221);
 }
 
 .user-post-count {
