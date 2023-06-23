@@ -1,0 +1,29 @@
+.comment-card {
+  width: 100%;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.comment-field {
+  width: 15rem;
+  height: 2rem;
+}
+
+.comment-li {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.comment-li .button_to {
+  margin-left: auto;
+}
