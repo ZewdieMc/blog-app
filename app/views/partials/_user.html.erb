@@ -1,7 +1,7 @@
 <div class='user-card'>
- <img src="<%= user.photo %>" alt="<%= user.name %>">
- <div class = 'user-info'>
-   <h2><%= link_to  user.name, user  %></h2>
-   <p>Number of posts: <%= user.posts_counter %></p>
- </div>
+<%= image_tag user.photo, alt: "#{user.name} profile image", class: 'profile'%>
+<%= link_to user, class: 'user-card-body' do %>
+    <h2><%= user.name %></h2>
+  <div class='user-post-count'>Number of posts: <%= user.posts_counter %></div>
+<% end %>
 </div>
