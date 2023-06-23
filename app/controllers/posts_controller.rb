@@ -16,10 +16,11 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = current_user.post.new(post_params)
+    @post = current_user.posts.new(post_params)
     if @post.save
       redirect_to user_post_path(current_user, @post)
     else
+      puts @post.errors.full_messages
       render :new, status: :unprocessable_entity
     end
   end
