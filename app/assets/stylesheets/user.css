@@ -19,7 +19,7 @@
   padding: 2%;
   border: 1px solid black;
   border-radius: 4px;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .user-card-body:hover {
