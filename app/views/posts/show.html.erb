@@ -1,1 +1,10 @@
-<h1>This is a post by a given user</h1>
+<article class='post-card-no-click'>
+  <div class='post-card-title'>
+  <h3><%=@post.title%> by <%=@post.author.name%></h3>
+  <div class='post-card-count-top'>
+  Comments: <%=@post.comments.count == nil ? 0 : @post.comments.count%>, 
+  Likes: <%=@post.likes.count == nil ? 0 : @post.likes.count%></div>
+  </div>
+  <div><%=@post.text%></div>
+</article>
+<%= render 'partials/comment', comments: @post.comments%>

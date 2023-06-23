@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+}
+
+header,
+.header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+header {
+  margin-bottom: 3%;
+}
+
+@media all and (min-width: 768px) {
+  main,
+  header {
+    width: 1100px;
+  }
+}
+
+.notice {
+  color: green;
+  text-align: center;
+}
+
+.alert {
+  color: red;
+  text-align: center;
+}

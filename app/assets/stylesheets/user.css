@@ -1,0 +1,77 @@
+.user-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.user-card-body {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.user-card-body:hover {
+  background-color: rgb(190, 217, 221);
+}
+
+.user-post-count {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.user-bio {
+  width: 100%;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.user-card-post-ul {
+  margin-bottom: 3%;
+}
+
+.see-all-post-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.post-btn-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 3%;
+}
+
+.see-all-post-btn,
+.common-btn {
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px black;
+  margin-top: 1rem;
+}
+
+.common-btn {
+  background-color: lightgreen;
+}
+
+.common-btn:hover {
+  background-color: green;
+}
+
+.red-bth {
+  background-color: red;
+}
+
+.user-wel {
+  text-align: center;
+}

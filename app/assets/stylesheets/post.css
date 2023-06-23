@@ -1,0 +1,60 @@
+.post-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
+}
+
+.post-card:hover {
+  background: linear-gradient(45deg, lightgray, lightblue, lightgray);
+}
+
+.post-card-no-click {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  border: 1px solid black;
+  word-wrap: break-word;
+  gap: 1rem;
+  padding: 2%;
+  background: linear-gradient(45deg, lightgray, lightblue, lightgray);
+}
+
+.post-card-count {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.post-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.post-card-count-top {
+  margin-left: auto;
+}
+
+.rigth-btn {
+  float: right;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-text-field {
+  width: 25rem;
+}
+
+.post-text-area {
+  width: 25rem;
+  height: 12rem;
+}
