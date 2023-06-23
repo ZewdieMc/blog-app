@@ -10,7 +10,7 @@
 }
 
 .post-card:hover {
-  background-color: lightgreen;
+  background: linear-gradient(45deg,lightgray, lightblue, lightgray);
 }
 
 .post-card-no-click {
@@ -22,6 +22,7 @@
   word-wrap: break-word;
   gap: 1rem;
   padding: 2%;
+  background: linear-gradient(45deg,lightgray, lightblue, lightgray);
 }
 
 .post-card-count {
