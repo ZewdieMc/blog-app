@@ -6,5 +6,7 @@
   Likes: <%=@post.likes.count == nil ? 0 : @post.likes.count%></div>
   </div>
   <div><%=@post.text%></div>
+  <%= button_to "Like", post_likes_path(@post), method: :post, class: ['common-btn', 'rigth-btn'] %>
 </article>
 <%= render 'partials/comment', comments: @post.comments%>
+<%= render 'partials/comment_form', post: @post, comment: @comment%>
