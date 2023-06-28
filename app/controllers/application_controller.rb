@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
 
   # This method is used to add additional parameters to the Devise authentication process.
   protected
+
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
     devise_parameter_sanitizer.permit(:account_update, keys: [:name])
