@@ -1,0 +1,7 @@
+<header>
+<h1><%=current_user.name%></h1>
+<div class='header-btn'>
+<%= button_to "Logout", destroy_user_session_path, method: :delete, class: 'common-btn' %>
+<%= button_to "Edit Profile", edit_user_path(current_user), method: :get, class: 'common-btn' %>
+</div>
+</header>
