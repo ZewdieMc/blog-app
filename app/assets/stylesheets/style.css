@@ -34,12 +34,17 @@ header {
 @media all and (min-width: 768px) {
   main,
   header {
-    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
   }
 }
 
 .notice {
-  color: green;
+  color: rgb(79, 199, 79);
   text-align: center;
 }
 
