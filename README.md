@@ -131,7 +131,12 @@ rspec ./spec/requests --format documentation
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
+👤 **Ghulam Hyder Dar**
+
+- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
+- Twitter: [@Hyder](https://twitter.com/@hyder3512)
+- LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar/)
 
 👤 **Zewdie Habtie**
 
